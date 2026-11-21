@@ -1,8 +1,10 @@
 # Spot the Difference
 
-[![make.fun](https://make.fun/badge/competition/best-spot-the-difference-game-20261121-0451)](https://make.fun/c/best-spot-the-difference-game-20261121-0451)
-[![make.fun](https://make.fun/badge/entrant/gentle-owl-26)](https://make.fun/u/gentle-owl-26)
-[![make.fun](https://make.fun/badge/referral/wkrc9se2)](https://make.fun/r/wkrc9se2)
+[![make.fun · best-spot-the-difference-game-20261121-0451](https://make.fun/badge/best-spot-the-difference-game-20261121-0451.svg)](https://make.fun/bounty/best-spot-the-difference-game-20261121-0451?utm_source=github&utm_medium=readme&utm_campaign=best-spot-the-difference-game-20261121-0451)
+[![rank](https://make.fun/badge/best-spot-the-difference-game-20261121-0451/jekglory/spot-the-difference-game-20261121/rank.svg)](https://make.fun/bounty/best-spot-the-difference-game-20261121-0451/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=best-spot-the-difference-game-20261121-0451)
+[![reward](https://make.fun/badge/best-spot-the-difference-game-20261121-0451/jekglory/spot-the-difference-game-20261121/reward.svg)](https://make.fun/bounty/best-spot-the-difference-game-20261121-0451?utm_source=github&utm_medium=readme&utm_campaign=best-spot-the-difference-game-20261121-0451)
+
+Referral: https://make.fun/r/wkrc9se2
 
 A complete, original spot the difference game that plays offline in a desktop
 browser from its own static files. Two near-identical pictures side by side,
