@@ -52,8 +52,12 @@ function main(): void {
   if (!existsSync(gameDir)) throw new Error('main.ts: game/ is missing');
   if (!existsSync(shotsDir)) throw new Error('main.ts: screenshots/ is missing');
 
-  rmSync(OUT, { recursive: true, force: true });
   mkdirSync(OUT, { recursive: true });
+  // Clear stale contents without removing OUT itself: in the grader
+  // /output is a mount point, and removing a mount point fails EBUSY.
+  for (const name of readdirSync(OUT)) {
+    rmSync(join(OUT, name), { recursive: true, force: true });
+  }
   copyTree(gameDir, join(OUT, 'game'));
   copyTree(shotsDir, join(OUT, 'screenshots'));
 
